@@ -1,0 +1,20 @@
+============================
+Test star section name
+============================
+
+@*=
+helloworld
+@great
+haha
+@haha
+great
+
+---
+
+(source_file
+ (section)
+ (codeline)
+ (section_ref)
+ (codeline)
+ (section_ref)
+ (codeline))
