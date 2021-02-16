@@ -1,0 +1,20 @@
+============================
+Test with prefix spaces
+============================
+
+@haha=
+	helloworld
+@great
+	haha
+		@haha
+	great
+
+---
+
+(source_file
+ (section)
+ (codeline)
+ (section_ref)
+ (codeline)
+ (section_ref)
+ (codeline))

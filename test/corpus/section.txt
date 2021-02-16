@@ -1,0 +1,16 @@
+============================
+Mix section with code lines
+============================
+
+@haha=
+helloworld
+haha
+great
+
+---
+
+(source_file
+  (section)
+  (codeline)
+  (codeline)
+  (codeline))

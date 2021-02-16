@@ -1,0 +1,20 @@
+{
+  "name": "tree-sitter-ntangle",
+  "version": "1.0.0",
+  "description": "ntangle.nvim neovim plugin highlighter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ntangle"
+  ],
+  "author": "jbyuki",
+  "license": "ISC",
+  "dependencies": {
+    "nan": "^2.14.2"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.18.1"
+  }
+}

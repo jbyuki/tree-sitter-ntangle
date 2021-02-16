@@ -1,0 +1,22 @@
+============================
+Test assembly
+============================
+
+##main
+@haha=
+helloworld
+@great
+haha
+@haha
+great
+
+---
+
+(source_file
+ (assembly_header)
+ (section)
+ (codeline)
+ (section_ref)
+ (codeline)
+ (section_ref)
+ (codeline))

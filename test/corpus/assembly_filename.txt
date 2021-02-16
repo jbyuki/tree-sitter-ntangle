@@ -1,0 +1,18 @@
+============================
+Test with assembly filename
+============================
+
+##../test
+@../hello_world.lua=
+helloworld
+haha
+great
+
+---
+
+(source_file
+  (assembly_header)
+  (section)
+  (codeline)
+  (codeline)
+  (codeline))

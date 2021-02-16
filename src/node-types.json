@@ -1,0 +1,45 @@
+[
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "assembly_header",
+          "named": true
+        },
+        {
+          "type": "codeline",
+          "named": true
+        },
+        {
+          "type": "section",
+          "named": true
+        },
+        {
+          "type": "section_ref",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "assembly_header",
+    "named": true
+  },
+  {
+    "type": "codeline",
+    "named": true
+  },
+  {
+    "type": "section",
+    "named": true
+  },
+  {
+    "type": "section_ref",
+    "named": true
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "name": "ntangle",
+  "rules": {
+    "source_file": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "assembly_header"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "SYMBOL",
+          "name": "section"
+        },
+        {
+          "type": "REPEAT",
+          "content": {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "SYMBOL",
+                "name": "codeline"
+              },
+              {
+                "type": "SYMBOL",
+                "name": "section"
+              },
+              {
+                "type": "SYMBOL",
+                "name": "section_ref"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "assembly_header": {
+      "type": "PATTERN",
+      "value": "##[a-zA-Z0-9_./]*?\\s*?\\n"
+    },
+    "codeline": {
+      "type": "PATTERN",
+      "value": "\\s*[^@\\s].*?\\s*?\\n"
+    },
+    "section": {
+      "type": "PATTERN",
+      "value": "@[a-zA-Z0-9_./]*?[+-]?=\\s*?\\n"
+    },
+    "section_ref": {
+      "type": "PATTERN",
+      "value": "\\s*@[a-zA-Z0-9_]*?\\s*?\\n"
+    }
+  },
+  "extras": [
+    {
+      "type": "PATTERN",
+      "value": "\\s"
+    }
+  ],
+  "conflicts": [],
+  "externals": [],
+  "inline": [],
+  "supertypes": []
+}
+

@@ -1,0 +1,16 @@
+============================
+Test with section filename
+============================
+
+@../hello_world.lua=
+helloworld
+haha
+great
+
+---
+
+(source_file
+  (section)
+  (codeline)
+  (codeline)
+  (codeline))

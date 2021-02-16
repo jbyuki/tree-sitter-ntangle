@@ -1,0 +1,20 @@
+================================
+Mix section ref with code lines
+================================
+
+@start=
+helloworld
+@haha
+haha
+@haha
+great
+
+---
+
+(source_file
+ (section)
+ (codeline)
+ (section_ref)
+ (codeline)
+ (section_ref)
+ (codeline))
