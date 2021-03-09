@@ -1,0 +1,22 @@
+============================
+Test minus
+============================
+
+##main-main
+@haha-haha=
+helloworld
+@great-great
+haha
+@haha-haha
+great
+
+---
+
+(source_file
+ (assembly_header)
+ (section)
+ (codeline)
+ (section_ref)
+ (codeline)
+ (section_ref)
+ (codeline))

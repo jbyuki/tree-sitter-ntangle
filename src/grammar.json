@@ -44,7 +44,7 @@
     },
     "assembly_header": {
       "type": "PATTERN",
-      "value": "##[a-zA-Z0-9_./]*?\\s*?\\n"
+      "value": "##[a-zA-Z0-9_./-]*?\\s*?\\n"
     },
     "codeline": {
       "type": "PATTERN",
@@ -52,11 +52,11 @@
     },
     "section": {
       "type": "PATTERN",
-      "value": "@[a-zA-Z0-9_./*]*?[+-]?=\\s*?\\n"
+      "value": "@[a-zA-Z0-9_./*\\-]*?[+-]?=\\s*?\\n"
     },
     "section_ref": {
       "type": "PATTERN",
-      "value": "\\s*@[a-zA-Z0-9_]*?\\s*?\\n"
+      "value": "\\s*@[a-zA-Z0-9_-]*?\\s*?\\n"
     }
   },
   "extras": [
